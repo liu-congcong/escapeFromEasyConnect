@@ -27,7 +27,7 @@ Options:
 ### macOS
 
 ```shell
-escapeFromEasyConnect IP ... IP
+sudo escapeFromEasyConnect IP ... IP
 
 Escape from EasyConnect. (https://github.com/liu-congcong/escapeFromEasyConnect)
 Usage:
