@@ -12,12 +12,26 @@ escapeFromEasyConnect的运行需要管理员权限。
 
 ## Usage
 
+### Windows
+
 ```shell
 escapeFromEasyConnect.exe IP ... IP
 
 Escape from EasyConnect. (https://github.com/liu-congcong/escapeFromEasyConnect)
 Usage:
-    C:\Users\liucongcong\OneDrive\Documents\c\escapeFromEasyConnect.exe ip ... ip
+    escapeFromEasyConnect.exe ip ... ip
+Options:
+    ip: <xxx.xxx.xxx.xxx> IP to be forwarded (这个IP是希望被EasyConnect转发的IP,通常是服务器IP等).
+```
+
+### macOS
+
+```shell
+escapeFromEasyConnect IP ... IP
+
+Escape from EasyConnect. (https://github.com/liu-congcong/escapeFromEasyConnect)
+Usage:
+    sudo escapeFromEasyConnect ip ... ip
 Options:
     ip: <xxx.xxx.xxx.xxx> IP to be forwarded (这个IP是希望被EasyConnect转发的IP,通常是服务器IP等).
 ```
